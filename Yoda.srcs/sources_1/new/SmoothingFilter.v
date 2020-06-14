@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: Sindiso Mkhatshwa
 // 
 // Create Date: 04.06.2020 05:11:12
 // Design Name: 
@@ -27,7 +27,7 @@ module SmoothingFilter(
     input BTND,         //Decrease window size
     input src,          //Source address
     input length,       //Length of data to be processed
-    input dest,
+    input dest,         //Destination address
     input active,      //Set this bit to indicate that device is busy working
     output done         //Set this bit to high once processing is complete
     );
@@ -49,13 +49,13 @@ module SmoothingFilter(
     
     always @(posedge CLK100MHZ)begin
         if(Reset)begin      //Handle reset
-            window_size = 3;    //Default value of 3
+            window_size = 4;    //Default value of 4
         end else 
         if(btn_up)begin     //Handle smoothing factor increment
             if(window_size < length) window_size = window_size + 1;
         end else
         if(btn_down)begin   //Handle smoothing factor decrease
-            if(window_size > 3) window_size = window_size - 1;
+            if(window_size > 4) window_size = window_size - 1;
         end
      
     end
