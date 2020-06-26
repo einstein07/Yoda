@@ -1,0 +1,12 @@
+0.6
+2019.2
+Nov  6 2019
+21:42:20
+/home/root07/Desktop/Final year/EEE4120F/Assignments/Project/Yoda/Yoda.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+/home/root07/Desktop/Final year/EEE4120F/Assignments/Project/Yoda/Yoda.srcs/sim_1/new/bram_tb.v,1593110386,verilog,,,,bram_tb,,,,,,,,
+/home/root07/Desktop/Final year/EEE4120F/Assignments/Project/Yoda/Yoda.srcs/sim_1/new/tlm_tb.v,1593136682,verilog,,,,tlm_tb,,,,,,,,
+/home/root07/Desktop/Final year/EEE4120F/Assignments/Project/Yoda/Yoda.srcs/sources_1/ip/blk_mem_gen_1/sim/blk_mem_gen_1.v,1593134415,verilog,,/home/root07/Desktop/Final year/EEE4120F/Assignments/Project/Yoda/Yoda.srcs/sources_1/new/Delay_Reset.v,,blk_mem_gen_1,,,,,,,,
+/home/root07/Desktop/Final year/EEE4120F/Assignments/Project/Yoda/Yoda.srcs/sources_1/new/Debounce.v,1591241809,verilog,,/home/root07/Desktop/Final year/EEE4120F/Assignments/Project/Yoda/Yoda.srcs/sources_1/new/Delay_Reset.v,,Debounce,,,,,,,,
+/home/root07/Desktop/Final year/EEE4120F/Assignments/Project/Yoda/Yoda.srcs/sources_1/new/Delay_Reset.v,1593131146,verilog,,/home/root07/Desktop/Final year/EEE4120F/Assignments/Project/Yoda/Yoda.srcs/sources_1/new/SmoothingFilter.v,,Delay_Reset,,,,,,,,
+/home/root07/Desktop/Final year/EEE4120F/Assignments/Project/Yoda/Yoda.srcs/sources_1/new/SmoothingFilter.v,1593140391,verilog,,/home/root07/Desktop/Final year/EEE4120F/Assignments/Project/Yoda/Yoda.srcs/sources_1/new/filter.v,,SmoothingFilter,,,,,,,,
+/home/root07/Desktop/Final year/EEE4120F/Assignments/Project/Yoda/Yoda.srcs/sources_1/new/filter.v,1593141110,verilog,,/home/root07/Desktop/Final year/EEE4120F/Assignments/Project/Yoda/Yoda.srcs/sim_1/new/tlm_tb.v,,filter,,,,,,,,

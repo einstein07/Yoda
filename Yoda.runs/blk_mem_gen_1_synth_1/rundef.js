@@ -12,9 +12,9 @@ var WshShell = new ActiveXObject( "WScript.Shell" );
 var ProcEnv = WshShell.Environment( "Process" );
 var PathVal = ProcEnv("PATH");
 if ( PathVal.length == 0 ) {
-  PathVal = "/home/maneno/nvidia/Vivado/2019.2/ids_lite/ISE/bin/lin64;/home/maneno/nvidia/Vivado/2019.2/bin;";
+  PathVal = "/home/root07/Xilinx/Vitis/2019.2/bin:/home/root07/Xilinx/Vivado/2019.2/ids_lite/ISE/bin/lin64;/home/root07/Xilinx/Vivado/2019.2/bin;";
 } else {
-  PathVal = "/home/maneno/nvidia/Vivado/2019.2/ids_lite/ISE/bin/lin64;/home/maneno/nvidia/Vivado/2019.2/bin;" + PathVal;
+  PathVal = "/home/root07/Xilinx/Vitis/2019.2/bin:/home/root07/Xilinx/Vivado/2019.2/ids_lite/ISE/bin/lin64;/home/root07/Xilinx/Vivado/2019.2/bin;" + PathVal;
 }
 
 ProcEnv("PATH") = PathVal;

@@ -7,9 +7,9 @@
 # 
 
 if [ -z "$PATH" ]; then
-  PATH=/home/maneno/nvidia/Vivado/2019.2/ids_lite/ISE/bin/lin64:/home/maneno/nvidia/Vivado/2019.2/bin
+  PATH=/home/root07/Xilinx/Vitis/2019.2/bin:/home/root07/Xilinx/Vivado/2019.2/ids_lite/ISE/bin/lin64:/home/root07/Xilinx/Vivado/2019.2/bin
 else
-  PATH=/home/maneno/nvidia/Vivado/2019.2/ids_lite/ISE/bin/lin64:/home/maneno/nvidia/Vivado/2019.2/bin:$PATH
+  PATH=/home/root07/Xilinx/Vitis/2019.2/bin:/home/root07/Xilinx/Vivado/2019.2/ids_lite/ISE/bin/lin64:/home/root07/Xilinx/Vivado/2019.2/bin:$PATH
 fi
 export PATH
 
@@ -20,7 +20,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/maneno/nvidia/Vivado/2019.2/Yoda/Yoda.runs/blk_mem_gen_1_synth_1'
+HD_PWD='/home/root07/Desktop/Final year/EEE4120F/Assignments/Project/Yoda/Yoda.runs/blk_mem_gen_1_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
